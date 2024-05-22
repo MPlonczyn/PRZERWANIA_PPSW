@@ -40,7 +40,7 @@ void Automat(){
 			LedStepRight();
 		}
 		break;
-			
+			//gittest
 		case LED_GO_LEFT:
 		if(eKeyboardRead() == BUTTON_1){
 			eLedState = LED_STOP;
