@@ -16,6 +16,8 @@ void LedInit(){
 	//IO1SET = LED0_bm;
 }
 
+//siema
+
 void LedOn (unsigned char ucLedIndeks){
 	IO1CLR = LED0_bm | LED1_bm | LED2_bm | LED3_bm;
 	
