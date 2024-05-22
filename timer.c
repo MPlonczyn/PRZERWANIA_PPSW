@@ -10,6 +10,8 @@ void InitTimer0(){
 	T0TCR |= COUNTER_ENABLE_bm;
 }
 
+//git comment
+
 void WaitOnTimer0(unsigned int uiTime){
 	T0TCR |= COUNTER_RESET_bm;
 	T0TCR &= ~COUNTER_RESET_bm;
